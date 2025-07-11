@@ -1,7 +1,16 @@
-alert('Boas vindas ao jogo do número secreto!');
-let numeroSecreto = 5; 
-let chute = prompt('Escolha um número entre 1 e 10:');
+alert('Boas vindas ao nosso jogo!');
 
-if (chute == numeroSecreto) {
-    console.log('Isso aí! Você descobriu o número secreto (5). ');
+let numeroDeVendas = 50;
+let saldoDisponivel = 1000;
+let mensagemDeErro = alert('Erro! Preencha todos os campos.');
+let nomeDoUsuario = prompt('Insira o seu nome de usário: ');
+let idadeDoUsuario = prompt('Insira a sua idade: ');
+
+if (idadeDoUsuario >= 18) {
+    alert('Pode tirar a habilitação!');
+
+} else {
+    alert('Infelizmente você ainda não pode tirar a habilitação...');
 }
+
+
